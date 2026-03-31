@@ -10,16 +10,16 @@ c)
 Päivitin taas järjestelmän ennen ansiblen lataamista. Latasin ansiblen sudo apt-get install ansible micro bash-completion tree komennolla. Latasin siis ansiblen lisäksi micron ja bash-completionin. Loin ansiblea varten tiedoston, jonne lisäsin micro hosts.ini tiedoston. Hosts.ini:iin lisäsin localhost: in. Kokeilin että ansible toimii ansible all -a 'uptime' -i hosts.ini komennolla. Ansible valitti pythonista, poistin ilmoituksen lisäämällä [all:vars] ansible_python_interpreter=/usr/bin/python3. Loin micro site.yml jossa annoin hosteille roolit "hello". Tein rooleille oman tiedoston ja micro tiedoston, jonne kirjoitin contentiksi "Hei maailma\n". Tarkistin ansible-playbook site.yml komennolla että tiedostoon oli tullut muutos. Ajoin tiedoston vielä ssh localhost cat /tmp/hello-ansible komennolla. Hei maailma tulostui onnistuneesti.
 
 x)
-•	SSH on yleinen ja turvallinen kirjautumistapa.
-•	Avainpari luodaan ssh-keygen komennolla.
-•	Avain kopioidaan palvelimelle ssh-copy-id komennolla.
-•	Kirjautuminen onnistuu ilman salasanaa. Kuinka todennäköistä on, että yksityinen avain joutuisi vääriin käsiin?
+- SSH on yleinen ja turvallinen kirjautumistapa.
+- Avainpari luodaan ssh-keygen komennolla.
+- Avain kopioidaan palvelimelle ssh-copy-id komennolla.
+- Kirjautuminen onnistuu ilman salasanaa. Kuinka todennäköistä on, että yksityinen avain joutuisi vääriin käsiin?
 
-•	Ansible toimii SSH:n kautta.
-•	Komentoja voidaan ajaa useammalla koneella samaan aikaan.
-•	Rooleilla on omat tehtävät.
-•	Sisennykset tehdään välilyönnillä, ei TAB:illa.
-•	Mahdollista automatisoida järjestelmiä helposti. Miksi sisennystä ei ole mahdollista tehdä TAB:illa?
+- Ansible toimii SSH:n kautta.
+- Komentoja voidaan ajaa useammalla koneella samaan aikaan.
+- Rooleilla on omat tehtävät.
+- Sisennykset tehdään välilyönnillä, ei TAB:illa.
+- Mahdollista automatisoida järjestelmiä helposti. Miksi sisennystä ei ole mahdollista tehdä TAB:illa?
 
 
 ## Lähteet
