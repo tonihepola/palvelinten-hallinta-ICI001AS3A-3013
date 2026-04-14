@@ -61,7 +61,7 @@ Kokeilin sitten sivuani **http://localhost**, sivu avautui niin kuin pitikin ja 
 Ajoin vielä kerran playbookin varmistaakseni että kaikki toimii: 
 <img width="1476" height="113" alt="Näyttökuva 2026-04-12 132533" src="https://github.com/user-attachments/assets/17d97b28-d237-4b14-922c-175bb8d28165" />  
 
-x)
+x)  
 Apache installed with Ansible:  
 Apache ladataan sudo apt-get install apache2 komennolla
 Apache otetaan käyttöön package-file-service mallin mukaisesti.  
@@ -99,3 +99,10 @@ Esim:
     state: started
 ````
 Service moduulilla voi optimoida omaa palvelua.
+
+## Lähteet  
+
+Ansible Community Documentation. s.a. Handlers: running operations on change. Luettavissa: https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_handlers.html. Luettu: 12.4.2026  
+Ansible Core Team, DeHaan, M. s.a. ansible.builtin.service module - Manage services. Luettavissa: https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/service_module.html. Luettu: 12.4.2026  
+Karvinen, T. 2026. Apache installed with Ansible - quick notes. Luettavissa: https://terokarvinen.com/apache-ansible/. Luettu: 12.4.2026  
+Karvinen, T. 2008. Install Apache Web Server on Ubuntu. Luettavissa: https://terokarvinen.com/2008/05/02/install-apache-web-server-on-ubuntu-4/. Luettu: 12.4.2026
