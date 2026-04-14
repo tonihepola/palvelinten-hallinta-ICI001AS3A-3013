@@ -1,3 +1,5 @@
+# h3 Demoni
+
 a)  
 Päivitin eka järjestelmän **sudo apt-get update** komennolla, jonka jälkeen latasin apache2 **sudo apt-get install apache2** komennolla.  
 Tein webbi sivua varten oman hakemiston, **mkdir -p /home/toni/sivu** ja tiedoston **micro /home/toni/sivu/index.html**, jonne kirjoitin vain:  
