@@ -53,7 +53,7 @@ Poistin postgresql **sudo apt-get purge postgresql -y** komennolla:
 <img width="1091" height="319" alt="Näyttökuva 2026-04-20 122336" src="https://github.com/user-attachments/assets/9fa25263-0145-4d92-9316-c389798fb74a" />  
 Tarkistin sitten postgressin statuksen, **systemctl status postgresql**:  
 <img width="769" height="55" alt="Näyttökuva 2026-04-20 123941" src="https://github.com/user-attachments/assets/f2b3083b-c225-4c4f-a5fd-4a3186792e3d" />  
-Postgresql:ää ei löytynyt enää, niin ajoin playbookin jotta se korjaisi tilanteen, ja saisin postgressin takaisin.  
+Postgresql:ää ei löytynyt enää, ajoin playbookin jotta se korjaisi tilanteen, ja saisin postgressin takaisin.  
 <img width="1334" height="113" alt="Näyttökuva 2026-04-20 124317" src="https://github.com/user-attachments/assets/ca7a6fc4-1c93-4fde-967c-2359b1497ae3" />  
 Tarkistin sitten statuksen uudestaan jotta näkisin sainko postgressin takaisin, vai en:  
 <img width="1368" height="229" alt="Näyttökuva 2026-04-20 124526" src="https://github.com/user-attachments/assets/c59e6516-b37b-48ee-9f2d-b34b1b084b34" />  
