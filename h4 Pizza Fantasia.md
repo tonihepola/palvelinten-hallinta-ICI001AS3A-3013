@@ -10,7 +10,7 @@ Kokeilin vielä että pääsen käsiksi postgressiin **sudo -u postgres psql** k
 <img width="685" height="127" alt="Näyttökuva 2026-04-20 103306" src="https://github.com/user-attachments/assets/9d7f05ff-66e8-4fef-b14f-8c233867b35d" />
 Tein testitietokannan **sudo -u postgres createdb testi** komennolla ja tarkistin tuliko se näkyviin tietokantalistaan **sudo -u postgres psql -c ”\l”** komennolla.  
 <img width="1212" height="432" alt="Näyttökuva 2026-04-20 103817" src="https://github.com/user-attachments/assets/c227bd13-7bed-464c-a697-ff76ceb7d795" />  
-Testitetokanta näkyy listassa viimeisenä.  
+Testitietokanta näkyy listassa viimeisenä.  
 
 b)  
 Tein postgresql roolit:
@@ -53,7 +53,7 @@ Poistin postgresql **sudo apt-get purge postgresql -y** komennolla:
 <img width="1091" height="319" alt="Näyttökuva 2026-04-20 122336" src="https://github.com/user-attachments/assets/9fa25263-0145-4d92-9316-c389798fb74a" />  
 Tarkistin sitten postgressin statuksen, **systemctl status postgresql**:  
 <img width="769" height="55" alt="Näyttökuva 2026-04-20 123941" src="https://github.com/user-attachments/assets/f2b3083b-c225-4c4f-a5fd-4a3186792e3d" />  
-Postgresql:ää ei löytynyt enään, niin ajoin playbookin jotta se korjaisi tilanteen, ja saisin postgressin takaisin.  
+Postgresql:ää ei löytynyt enää, niin ajoin playbookin jotta se korjaisi tilanteen, ja saisin postgressin takaisin.  
 <img width="1334" height="113" alt="Näyttökuva 2026-04-20 124317" src="https://github.com/user-attachments/assets/ca7a6fc4-1c93-4fde-967c-2359b1497ae3" />  
 Tarkistin sitten statuksen uudestaan jotta näkisin sainko postgressin takaisin, vai en:  
 <img width="1368" height="229" alt="Näyttökuva 2026-04-20 124526" src="https://github.com/user-attachments/assets/c59e6516-b37b-48ee-9f2d-b34b1b084b34" />  
@@ -93,7 +93,9 @@ Kuinka pitkälle pääsee käyttämällä vain perusfunktioita, ilman että rake
 
 
 ## Lähteet
-Hostman Team. 2025. Installing PostgreSQL on Debian. Luettavissa: https://hostman.com/tutorials/installing-postgresql-on-debian/. Luettu: 20.4.2026.
+Hostman Team. 2025. Installing PostgreSQL on Debian. Luettavissa: https://hostman.com/tutorials/installing-postgresql-on-debian/. Luettu: 20.4.2026.  
 Karvinen, T. 2016. Install PostgreSQL on Ubuntu - New user and database in 3 commands. Luettavissa: https://terokarvinen.com/2016/install-postgresql-on-ubuntu-new-user-and-database-in-3-commands/index.html. Luettu: 20.4.2026  
 Karvinen, T. 2026. Apache installed with Ansible - quick notes. Luettavissa: https://terokarvinen.com/apache-ansible/. Luettu: 20.4.2026  
 Karvinen, T. 2023. Configuration Management of Distributed Systems over Unreliable and Hostile Networks. Sivut 112-117. Luettavissa: https://westminsterresearch.westminster.ac.uk/download/4cc417566aa9af60fe3826d690719e390abdb7a3c8672f3d51b1eb4ca75e7624/1427236/karvinen-2023-configuration-management-of-distributed-systems.pdf. Luettu: 20.4.2026    
+Kartones. s.a. PostgreSQL command line cheatsheet. Luettavissa: https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546. Luettu: 20.4.2026
+Postgresql man ja help sivut Linuxissa.
