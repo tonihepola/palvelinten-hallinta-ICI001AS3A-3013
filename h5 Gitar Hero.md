@@ -19,10 +19,10 @@ Kloonasin repositoryn koneelleni komennolla "**git clone git@github.com:Donheblo
 <img width="1186" height="168" alt="Näyttökuva 2026-04-26 162031" src="https://github.com/user-attachments/assets/11036ef0-ae89-4239-b669-d32821b3966d" />  
 Siirryin "**cd**" komennolla Sunshine-varastoon ja lisäsin sinne tekstitiedoston "**micro aurinko.txt**".  
 <img width="875" height="164" alt="Näyttökuva 2026-04-26 163007" src="https://github.com/user-attachments/assets/4b67de26-f4b0-4952-8a30-45476b920656" />  
-Aloitin muutosten lisäämisen webpalvelimelle "**git add --all**" komennolla.   
+Aloitin muutosten lisäämisen webpalvelimelle "**git add --all**" komennolla jotta ne sisältyvät seuraavaan committiin.   
 Tallensin muutokset "**git commit**" komennolla.  
 Lisäsin commit kommentiksi "Uusi tekstitiedosto varastoon".  
-Sitten käytin vielä "**git push**" komentoa, että muutokset tulisivat webbiin näkyviin.  
+Sitten käytin vielä "**git push**" komentoa, jotta muutokset tulisivat webbiin näkyviin.  
 <img width="915" height="309" alt="Näyttökuva 2026-04-26 163704" src="https://github.com/user-attachments/assets/8f8fa9a1-8e78-4aa8-8275-aa027f6abb4a" />  
 Kävin vielä githubissa tarkistamassa että tulihan muutokset näkyville:  
 <img width="1236" height="447" alt="Näyttökuva 2026-04-26 164247" src="https://github.com/user-attachments/assets/49602ee2-1497-4077-b658-c49eba15a73f" />  
@@ -34,6 +34,7 @@ Uusi tekstitiedosto ja sen sisältämä teksti näkyvät selaimessa niin kuin pi
 Aloitin muokkaamalla "**aurinko.txt**" tiedostoa, lisäämällä sinne kaksi tekstiriviä.  
 Aloitin muutosten lisäämistä "**git add --all**" komennolla, mutta en commitannut, enkä pushannut mitään.  
 Palautin tekstitiedostoni viimeisempään tallennettuun tilaan, "**git reset --hard**" komennolla.  
+Komento on siis hyödyllinen kun halutaan nopeasti hylätä tallentamattomat muutokset ja palauttaa työ edelliseen tallennuspisteeseen.    
 Tarkistin vielä "**cat**" komennolla että muutokset poistuivat.  
 <img width="871" height="361" alt="Näyttökuva 2026-04-26 165313" src="https://github.com/user-attachments/assets/daeace49-4fa4-4786-8d80-35a348d68070" />  
 
@@ -117,19 +118,20 @@ Modified eli muokattu mutta ei vielä commitattu
 Staged eli valittu committiin
 Committed eli data on tallennettuna paikalliseen tietokantaan
 ````
+Onko Gitin snapshot tallentamistapa aina 100% luotettava, vai voiko siinä olla jotain ongelmaa?
 
 Git komennot:  
 git add --all, lisätään kaikki muutokset committia varten.  
 git commit, tallentaa muutokset pysyvästi tietokantaan.  
-git pull, etsii muutoksia ja yhdistää ne.  
-git push, tekee muutokset.  
-
+git pull, etsii muutoksia repositorysta ja yhdistää ne.  
+git push, lähettää commitit repositoryyn.  
+Miten Git käsittelee tilanteet, jos moni kehittäjä koittaa samaan aikaan committaa, pullaa ja tai pushaa? 
 
 ## Lähteet
 Atlassian. s.a. Git Glossary. Luettavissa: https://www.atlassian.com/git/glossary#commands. Luettu 26.4.2026.  
 Käytetty lähteenä komentoihin, komentojen selityksiin ja tiivistelmään.   
 Atlassian. s.a. Git cheat sheet. Luettavissa: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet. Luettu: 26.4.2026.  
 Käytetty lähteenä komentoihin, komentojen selityksiin ja tiivistelmään.   
-Chacon, S. Straub, B. 2014. Pro Git 2nd Edition. Apross. New York City. Luku 1.3. Luettavissa: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F. Luettu: 26.4.2016.  
+Chacon, S. Straub, B. 2014. Pro Git 2nd Edition. Apross. New York City. Luku 1.3. Luettavissa: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F. Luettu: 26.4.2026.  
 Käytetty lähteenä tiivistelmään.  
 
