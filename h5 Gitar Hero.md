@@ -9,14 +9,14 @@ Lisäsin repositorylle nimen ja kuvauksen, joissa kummassakin oli vaadittu sana 
 Repository on oletuksena public, joten jätinkin sen niin.  
 Laitoin vielä README:n päälle ja lisäsin GNU General Public License 3.  
 Repository luotiin ”Create repository” kuvakkeesta.  
-<img width="1038" height="850" alt="Näyttökuva 2026-04-25 093249" src="https://github.com/user-attachments/assets/81995173-e5ed-4bb3-be60-b983da31e1c5" />  
+<img width="800" height="650" alt="Näyttökuva 2026-04-25 093249" src="https://github.com/user-attachments/assets/81995173-e5ed-4bb3-be60-b983da31e1c5" />  
 
 
 ### b) Dolly 
 Aloitin repositoryn kloonaamisen painamalla vihreää "Code" kuvaketta, valitsemalla sieltä "SSH" osion ja kopioimalla näkyvän tekstin.  
 <img width="522" height="338" alt="Näyttökuva 2026-04-26 161448" src="https://github.com/user-attachments/assets/1a72ff8a-51f6-4c18-a567-a961a4d2c859" />  
 Kloonasin repositoryn koneelleni komennolla "**git clone git@github.com:Donhebloi/Sunshine-varasto.git**".  
-<img width="1186" height="168" alt="Näyttökuva 2026-04-26 162031" src="https://github.com/user-attachments/assets/11036ef0-ae89-4239-b669-d32821b3966d" />  
+<img width="800" height="168" alt="Näyttökuva 2026-04-26 162031" src="https://github.com/user-attachments/assets/11036ef0-ae89-4239-b669-d32821b3966d" />  
 Siirryin "**cd**" komennolla Sunshine-varastoon ja lisäsin sinne tekstitiedoston "**micro aurinko.txt**".  
 <img width="875" height="164" alt="Näyttökuva 2026-04-26 163007" src="https://github.com/user-attachments/assets/4b67de26-f4b0-4952-8a30-45476b920656" />  
 Aloitin muutosten lisäämisen webpalvelimelle "**git add --all**" komennolla jotta ne sisältyvät seuraavaan committiin.   
@@ -25,7 +25,7 @@ Lisäsin commit kommentiksi "Uusi tekstitiedosto varastoon".
 Sitten käytin vielä "**git push**" komentoa, jotta muutokset tulisivat webbiin näkyviin.  
 <img width="915" height="309" alt="Näyttökuva 2026-04-26 163704" src="https://github.com/user-attachments/assets/8f8fa9a1-8e78-4aa8-8275-aa027f6abb4a" />  
 Kävin vielä githubissa tarkistamassa että tulihan muutokset näkyville:  
-<img width="1236" height="447" alt="Näyttökuva 2026-04-26 164247" src="https://github.com/user-attachments/assets/49602ee2-1497-4077-b658-c49eba15a73f" />  
+<img width="900" height="447" alt="Näyttökuva 2026-04-26 164247" src="https://github.com/user-attachments/assets/49602ee2-1497-4077-b658-c49eba15a73f" />  
 <img width="559" height="242" alt="Näyttökuva 2026-04-26 164402" src="https://github.com/user-attachments/assets/e7803a13-5ce6-4a4d-bc43-477e38a6b6c8" />
 Uusi tekstitiedosto ja sen sisältämä teksti näkyvät selaimessa niin kuin pitääkin.  
 
