@@ -22,7 +22,7 @@ Siirryin "**cd**" komennolla Sunshine-varastoon ja lisäsin sinne tekstitiedosto
 Aloitin muutosten lisäämisen webpalvelimelle "**git add --all**" komennolla jotta ne sisältyvät seuraavaan committiin.   
 Tallensin muutokset "**git commit**" komennolla.  
 Lisäsin commit kommentiksi "Uusi tekstitiedosto varastoon".  
-Sitten käytin vielä "**git push**" komentoa, jotta muutokset tulisivat webbiin näkyviin.  
+Sitten käytin vielä "**git push**" komentoa, jotta muutokset tulisivat webbiin näkyviin. Ilman "**git push**" komentoa muutokset eivät tule githubiin näkyville.    
 <img width="915" height="309" alt="Näyttökuva 2026-04-26 163704" src="https://github.com/user-attachments/assets/8f8fa9a1-8e78-4aa8-8275-aa027f6abb4a" />  
 Kävin vielä githubissa tarkistamassa että tulihan muutokset näkyville:  
 <img width="900" height="447" alt="Näyttökuva 2026-04-26 164247" src="https://github.com/user-attachments/assets/49602ee2-1497-4077-b658-c49eba15a73f" />  
