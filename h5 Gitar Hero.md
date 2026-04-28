@@ -42,7 +42,7 @@ Tarkistin vielä "**cat**" komennolla että muutokset poistuivat.
 ### d) Tukki  
 Repositoryn lokeja pystyy tarkastelemaan "**git log --patch**" komennolla.  
 Komento näyttää commit-historian, tarkat tiedostokohtaiset muutokset, kuka on tehnyt muutokset ja milloin.  
-<img width="1319" height="869" alt="Näyttökuva 2026-04-26 170444" src="https://github.com/user-attachments/assets/e7d49a16-3b5b-4b87-9aa3-57968983f764" />  
+<img width="850" height="700" alt="Näyttökuva 2026-04-26 170444" src="https://github.com/user-attachments/assets/e7d49a16-3b5b-4b87-9aa3-57968983f764" />  
 Lokitiedoista näkee:  
 ````
 Mikä commit  
@@ -68,7 +68,7 @@ git add --all
 git commit ja kommentti "Lisätään ansible-kansio varastoon"
 git push
 ````
-<img width="994" height="648" alt="Näyttökuva 2026-04-26 173940" src="https://github.com/user-attachments/assets/b2d70ec2-9f2f-408c-a9a6-03a17702d05c" />  
+<img width="794" height="548" alt="Näyttökuva 2026-04-26 173940" src="https://github.com/user-attachments/assets/b2d70ec2-9f2f-408c-a9a6-03a17702d05c" />  
 Kävin githubissa tarkistamassa että tuliko kansio sinne näkyviin:  
 <img width="1218" height="109" alt="Näyttökuva 2026-04-26 174626" src="https://github.com/user-attachments/assets/b8af6ea7-62c1-466f-a39e-34bc7e9e7842" />  
 Tämän jälkeen kävin muokkaamassa vähäsen "Hello" roolia ansiblessa, lisäämällä sinne viestin.  
